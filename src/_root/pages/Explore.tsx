@@ -20,7 +20,6 @@ const Explore = () => {
     }, [inView, searchValue])
 
     if (!posts) return <div className="flex-center w-full h-full"><Loader /></div>
-    console.log({ posts })
 
     const shouldShowSearchResults = searchValue !== "";
     const shouldShowAllPosts = !shouldShowSearchResults && posts?.pages.every((item: any) => item?.documents.length === 0);
