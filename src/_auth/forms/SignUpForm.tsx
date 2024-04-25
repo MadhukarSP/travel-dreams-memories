@@ -15,9 +15,9 @@ import { useCreateUserAccount, useSignInAccount } from "@/lib/react-query/querie
 
 const SignUpForm = () => {
     const { toast } = useToast();
-    const { checkAuthUser, isLoading: isUserLoading } = useUserContext();
+    const { checkAuthUser } = useUserContext();
     const { mutateAsync: createUserAccount, isPending: isCreatingUser } = useCreateUserAccount();
-    const { mutateAsync: signInAccount, isPending: isSigningIn } = useSignInAccount();
+    const { mutateAsync: signInAccount } = useSignInAccount();
     const navigate = useNavigate();
 
     // 1. Define your form.
