@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="171" height="36" viewBox="0 0 171 36" fill="none">
+    <!-- Globe icon -->
+    <g transform="translate(20, 0)">
+        <circle cx="14" cy="16" r="10" fill="#339966" />
+        <!-- Globe path -->
+        <path d="M 18 14 
+                 A 4 4 0 1 1 10 14 
+                 A 4 4 0 0 1 18 14
+                 M 14 4
+                 A 10 10 0 1 0 14 28
+                 A 10 10 0 1 0 14 4" fill="#0066cc" />
+    </g>
+    <!-- "travel-d-m" text -->
+    <text x="50" y="25" font-family="Arial, sans-serif" font-size="22" fill="#0066cc">Travel-DM</text>
+</svg>
